@@ -1,2 +1,2 @@
 # coursCEFIM
-Exercices from the formation DL
+All exercices from the CEFIM formation (DL 2018-1)
