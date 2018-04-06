@@ -1,0 +1,18 @@
+{
+  "name": "thepiggame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "poi"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
+    "poi": "^9.6.13"
+  }
+}
