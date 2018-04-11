@@ -1,0 +1,48 @@
+body {
+  display: grid;
+  grid-template: 110px 1fr / 1fr 3fr;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  color: #FF98FD;
+  text-shadow: 1px 1px 5px white;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.title {
+  grid-column: 2 span;
+  background-color: #88EDA8;
+}
+
+
+.click-zone {
+  background-color: #47BBC3;
+  text-align: center;
+} 
+.click-zone img {
+  transition: all 200ms linear;
+  cursor: pointer;
+}
+
+.click-zone img:active {
+  transform: scale(1.4);
+}
+.buy-zone {
+  background-color: #FFD863;
+}
+
+.item {
+  margin: 15px;
+  border: 1px solid #F08D80;
+  padding: 15px;
+  cursor: pointer;
+}
+.item:hover {
+  background-color: #FF98FD;
+  color: #FFD863;
+}
+.item > * {
+  margin: 0;
+}
