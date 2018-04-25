@@ -1,0 +1,11 @@
+.CharactersListPage {
+
+}
+
+.CharactersListPage-item {
+    display: flex;
+    align-items: center;
+}
+.CharactersListPage-item img {
+    width: 50px;
+}
